@@ -1,0 +1,11 @@
+# Hiperparametros versionados con Git
+# Cualquier cambio aqui queda registrado en el historial
+n_estimators: 100
+max_depth: 12
+test_size: 0.2
+random_state: 42
+
+# Umbrales de calidad para los tests automaticos
+min_f1:  0.75
+min_auc: 0.80
+threshold: 0.5
